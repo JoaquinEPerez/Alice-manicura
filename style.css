@@ -1,0 +1,264 @@
+*{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+body{
+    background-image: url(./multimedia/tropical-leaves-paper-cut-style.jpg);
+}
+/*Heder*/
+.heder-contenido{
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.heder-titulo{
+    text-align:center;
+    color: black;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    text-shadow: 0 0 5px #c659aa, 0 0 10px #c659aa,  0 0 20px #c659aa,  0 0 40px #c659aa, 0 0 80px #c659aa,  0 0 160px #c659aa; 
+}
+
+
+
+/* Fin heder*/
+/* inicio carrusel*/
+.carousel-inner{
+    height: 260px;   
+}
+
+.carousel{
+    padding-top: 20px;
+}
+/*Fin de carrusel*/
+
+/*Seccion descripcion-marca */
+
+.descripcionmarca-contenido{
+    margin: 5px;
+    padding: 20px 10px; 
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px black;
+}
+
+.descripcionmarca-parrafo{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: lighter;
+    color: black;
+      
+}
+
+
+
+/* Fin descripcion-marca*/
+
+/* Seccion  opiniones y youtube */
+.opiniones-container {
+    padding-left: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    align-items: center; 
+}
+.opiniones-item img {
+    width: 100%;
+    max-width: 560px; 
+    max-height: 315px; 
+    object-fit: cover; 
+  }
+  
+  .opiniones-item iframe {
+    width: 100%;
+    max-width: 560px; 
+    height: 315px; 
+  }
+
+/* Seccion  opiniones y youtube */
+
+
+/*Seccion footer*/
+
+.footer{
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer__img{
+    width: 50px;
+    height: 50px;
+    
+}
+.footer__descripcion{
+    padding-top: 3px           ;
+    text-align: center;
+    font-size:20px;
+}
+
+/* Fin footer*/
+/*Inicio servicios */
+/* Inicio servicios */
+.servicios-contenido {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.servicios-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.servicios-cards {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px black;
+    
+}
+
+
+
+.img-serv {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.servicios-descripcion-titulo {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.servicios-descripcion {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Fin Servicios */
+
+/* Seccion Productos */
+
+.productos-contenido {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.producto {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 20%; 
+    box-sizing: border-box;
+}
+.producto-item {
+    text-align: center;
+    font-weight: bold;
+}
+.productos-boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;}
+
+.ml nav a {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.img-producto{
+    width: 100%;
+}
+
+
+/* Seccion quienes somos*/
+
+.quienes-contenido{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.quienes-titulo{
+    text-align: center;
+    font-style: italic;
+    font-size:60px ;
+    padding-bottom: 10px;
+}
+
+.quienes-parrafo{
+    padding: 10px;
+    border: 1px solid black;
+    color: #c659aa;
+}
+
+.quienes-img{
+    padding-left: 250px;
+    flex-wrap: wrap;
+    display:flex ;
+    justify-content: center;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+/* Fin Seccion quienes somos*/
+/* Seccion contactos*/
+.contacto-img{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-form{
+ 
+    width: 40%;
+    height: 350px;
+}
+
+.contacto-item{
+    width: 40%;
+}
+.contacto-text-area{
+    height: 100px;
+}
+.contacto-msj{
+    padding: 10%;
+}
+.contacto-boton{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* fin seccion contacto*/
+
