@@ -11,7 +11,6 @@ body{
 .heder-contenido{
     padding-top: 10px;
     padding-left: 10px;
-
 }
 
 .heder-titulo{
@@ -22,39 +21,52 @@ body{
     text-shadow: 0 0 5px #c659aa, 0 0 10px #c659aa,  0 0 20px #c659aa,  0 0 40px #c659aa, 0 0 80px #c659aa,  0 0 160px #c659aa; 
 }
 
-
-
 /* Fin heder*/
 /* inicio carrusel*/
-.carousel-inner{
-    height: 260px;   
-}
 
 .carousel{
+
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 /*Fin de carrusel*/
-
 /*Seccion descripcion-marca */
 
 .descripcionmarca-contenido{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     padding: 20px 10px; 
-    display:flex; 
-    justify-content: space-around;
-    align-items: center;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 4px 6px 8px black;
 }
 
 .descripcionmarca-parrafo{
+    flex: 1;
+    line-height: 1.6;
     font-size: 30px;
     padding-left: 50px;
     padding-right: 50px;
     font-weight: lighter;
     color: black;
-      
+}
+@media only screen and (max-width: 768px) {
+    .descripcionmarca-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .descripcionmarca-parrafo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .descripcionmarca-img {
+        display: none;
+    }
 }
 
 
@@ -83,6 +95,12 @@ body{
     height: 315px; 
   }
 
+  @media only screen and (max-width: 768px){
+    .opiniones-container{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+  } 
 /* Seccion  opiniones y youtube */
 
 
@@ -116,6 +134,10 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+.servicios-cards:hover{
+    transform: scale(1.05);
+}
+
 
 .servicios-cards {
     border: 1px solid #ddd;
@@ -175,21 +197,38 @@ body{
     box-shadow: 0 4px 6px black;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.producto-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .producto-item {
-    text-align: center;
     font-weight: bold;
     padding-bottom: 10px;
+    text-decoration:underline;
 }
 .productos-boton {
     background-color: #4CAF50;
-    color: white;
+    color:white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
-    margin: 20px auto 0;}
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px black;
+}
+.productos-boton:hover {
+    background-color: #45A049; 
+    box-shadow: 0 6px 8px black;
+    transform: translateY(-2px);
+}
 
 .ml nav a {
     display: block;
@@ -200,7 +239,15 @@ body{
 }
 
 .img-producto{
+    padding-bottom: 5px;
     width: 100%;
+    max-width: 150px;
+}
+.producto-precio{
+    text-decoration: overline 3px gray;
+    text-align: center;
+    font-weight: bolder;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -215,62 +262,46 @@ body{
 }
 
 /* Seccion quienes somos*/
-
-.quienes-contenido{
-    padding: 10px;
-    margin: 10px;
-    
+.quienes-somos{
+    padding-left: 10px;
+    padding-right: 20px;
 }
-
-.quienes-titulo{
+.titulo-principal {
+    font-size: 32px;
     text-align: center;
-    font-style: italic;
-    font-size:60px ;
-    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
-
-.quienes-parrafo{
-    padding: 10px;
+.titulo-secundario{
+    text-decoration: overline;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.nombre-miembro {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.miembro img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px #c659aa, 0 0 10px #c659aa,  0 0 20px #c659aa,  0 0 40px #c659aa, 0 0 80px #c659aa;
+}
+.imgasd{
+    border-radius: 30%;
     border: 1px solid black;
-    color: #c659aa;
-}
-
-.quienes-img{
-    padding-left: 250px;
-    flex-wrap: wrap;
-    display:flex ;
-    justify-content: center;
-    width: 900px;
-    margin-bottom: 10px;
+    box-shadow: 0 4px 8px black;
 }
 
 /* Fin Seccion quienes somos*/
-/* Seccion contactos*/
-.contacto-img{
-    display: flex;
-    justify-content: center;
+.contacto-contenido {
+    padding: 20px;
 }
 
-.contacto-form{
- 
-    width: 40%;
-    height: 350px;
+.img-fluid {
+    max-width: 100%;
+    border-radius: 10px;
 }
-
-.contacto-item{
-    width: 40%;
-}
-.contacto-text-area{
-    height: 100px;
-}
-.contacto-msj{
-    padding: 10%;
-}
-.contacto-boton{
-    display: flex;
-    justify-content: center;
-}
-
-
-/* fin seccion contacto*/
 

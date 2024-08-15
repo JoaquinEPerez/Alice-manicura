@@ -28,42 +28,44 @@
         
     </header>
     <section class="contacto-contenido">
-        <Div class="contacto-img">
-            <img src="../multimedia/redes.jpg" alt="redes">
-        </Div>
-            <h1>DEJANOS TUS MENSAJE O CONSULTA</h1>
-            <form class="contacto-form" action="">
-                <div class="asd">
-                <div class="contacto-item">
-                    <label for="Nombre">Nombre</label>
-                    <input id="Nombre" name="Nombre" type="Nombre" required>
-                </div>
-                <div class="contacto-item">
-                    <label for="Email">Email</label>
-                    <input id="Email" name="Email" type="Email" placeholder="carlos@example.com">
-                </div>
-                <div class="contacto-item">
-                    <label for="Telefono">Telefono</label>
-                    <input id="Telefono" name="Telefono" type="Telefono" required>
-                </div>
-                <div class="contacto-item">
-                    <label for="Mensaje">Mensaje</label>
-                    <textarea class="contacto-text-area" name="Mensaje" id="Mensaje" ></textarea>
-                    <div class="contacto-msj">
-                        Deja tu mensaje en 500 caracteres
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="card-title text-center mb-4">Contáctanos</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nombre y Apellido</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre y apellido">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="contacto-boton">
-                        <button>Enviar</button>
-                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <img src="../multimedia/redes.jpg" alt="redes" class="img-fluid">
                 </div>
             </div>
-            </form>
-        </Div>
+        </div>
     </section>
 
     <footer class="footer">
         <ul>
-            <a href="https://www.instagram.com/nailsbyjuli_/?hl=es-la"><img class="footer__img" src="multimedia/iconinsta.png" alt="logo-instagram"></a>
+            <a href="https://www.instagram.com/nailsbyjuli_/?hl=es-la"><img class="footer__img" src="../multimedia/iconinsta.png" alt="logo-instagram"></a>
             <div class="footer__descripcion"> 
             @2024 Alice Nails
             </div>
