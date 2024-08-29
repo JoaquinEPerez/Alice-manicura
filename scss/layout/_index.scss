@@ -1,0 +1,110 @@
+.heder-contenido{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*Seccion descripcion-marca */
+.descripcionmarca-contenido {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    
+
+    p {
+        flex: 1; 
+        font-size: 1.2em; 
+        line-height: 1.5; 
+        color: #191919;
+    }
+    
+    img {
+        width: 250px; 
+        height: auto; 
+        border-radius: 10%;
+        box-shadow: 4px 6px 8px black;
+    }
+}
+/* Fin descripcion-marca*/
+/* Seccion  reviews y youtube */
+.opiniones-container {
+    padding-left: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    align-items: center;  
+    
+    .reviews-section {
+    display: inline-block;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid black;
+
+    .review {
+        padding: 20px 0;
+        border-bottom: 1px solid black;
+        font-family: first-fonts;
+
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .profile-pic {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+
+            .review-info {
+                display: flex;
+                flex-direction: column;
+
+                .review-infouser {
+                    margin: 0;
+                    font-size: 18px;
+                    color: #333;
+                    font-weight: bold;
+                }
+
+                .review-rating {
+                    display: flex;
+                    margin: 5px 0;
+
+                    .star {
+                        color: #dab41c;
+                        font-size: 18px;
+                        margin-right: 2px;
+                    }
+                }
+
+                .review-date {
+                    font-size: 14px;
+                    color: #777;
+                }
+            }
+        }
+
+        .review-text {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+    }
+}
+
+.opiniones-item iframe {
+    width: 100%;
+    max-width: 560px; 
+    height: 315px; 
+    border-radius: 10%;
+}
+}
+/* Seccion  opiniones y youtube */

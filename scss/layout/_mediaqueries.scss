@@ -1,0 +1,58 @@
+/*descripcion-marca */
+
+@media only screen and (max-width: 768px){
+    .descripcionmarca-contenido {
+            flex-direction: column;
+            text-align: center;
+            font-size: 1em;
+
+            p {
+                margin-right: 0;
+                margin-bottom: 20px;
+                font-size: 1em;
+            }
+        
+            img {
+                display: none;
+            }
+        }
+        .opiniones-container{
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            margin: 10px;
+            font-size: 1em;
+        }
+        .productos-contenido{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .servicios-contenido .servicios-img {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+
+}
+
+@media only screen and (max-width: 480px){
+    .productos-contenido{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .miembro{
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+
+        .miembro img{
+            display: none;
+        }
+    }
+    .servicios-contenido .servicios-img {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+
+
+/* Media Queries para dispositivos móviles (max-width: 480px) */

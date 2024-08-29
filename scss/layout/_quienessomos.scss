@@ -1,0 +1,105 @@
+/* Seccion quienes somos*/
+.quienes-somos{
+    padding-left: 10px;
+    padding-right: 20px;
+
+        .intro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .titulo-principal {
+            font-size: 32px;
+            text-align: center;
+            font-weight: bold;
+            font-family: $title-fonts;
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .intro img{
+            max-width: 900px;
+            border-radius: 30%;
+            border: 1px solid black;
+            box-shadow: 0 4px 8px black;
+            margin-bottom: 20px;
+        }
+
+        .intro-text{
+            font-family: $subtex-fonts;
+        }
+    }
+
+    
+
+    .miembros-equipo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px auto;
+    
+        .miembro {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            padding: 15px;
+            font-family: $subtex-fonts;
+            
+            .img-miembro {
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                margin-bottom: 15px;
+            }
+    
+            .info-miembro {
+                padding: 10px;
+    
+                .nombre-miembro {
+                    font-weight: bold;
+                    font-size: 1.2em;
+                    margin-bottom: 10px;
+                }
+                
+                .rol-miembro {
+                    font-style: italic;
+                    margin-bottom: 10px;
+                }
+                
+                .miembro p {
+                    margin: 0;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+
+    .historia {
+        margin: 20px auto;
+        max-width: 100%;
+        text-align: center;
+        font-family: $subtex-fonts;
+
+    }
+    .historia img{
+        margin: 20px auto;
+        max-width: 900px;
+    }
+    
+    .titulo-secundario {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 800;
+        font-family: $title-fonts;
+
+    }
+    .valores {
+        margin: 20px auto;
+        text-align: center;
+        font-family: $subtex-fonts;
+    }
+    

@@ -1,76 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS de estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <!-- Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <!--Titulo-->
-    <title>Contacto</title>
-</head>
-<body>
-    <header class="heder-contenido">
-        <h1 class="heder-titulo">
-            Alice Nails
-        </h1>     
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="../index.html">Home</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/servicios.html">Servicios</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/productos.html">Productos</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/quienessomos.html">Quienes somos </a>
-            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Contacto</a>
-        </nav>
-        
-    </header>
-    <section class="contacto-contenido">
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h2 class="card-title text-center mb-4">Contáctanos</h2>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Nombre y Apellido</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre y apellido">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label">Teléfono</label>
-                                    <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary w-100">Enviar</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-md-block">
-                    <img src="../multimedia/redes.jpg" alt="redes" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
+<html lang="es">
 
-    <footer class="footer">
-        <ul>
-            <a href="https://www.instagram.com/nailsbyjuli_/?hl=es-la"><img class="footer__img" src="../multimedia/iconinsta.png" alt="logo-instagram"></a>
-            <div class="footer__descripcion"> 
-            @2024 Alice Nails
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Description -->
+  <meta name="description" content="Contáctanos en Alice para consultas sobre nuestros servicios de manicura. Completa el formulario con tu nombre, correo electrónico, teléfono y mensaje para recibir una respuesta rápida. Estamos aquí para atender todas tus preguntas y proporcionarte el mejor servicio.">
+  <!-- Meta Keywords-->
+  <meta name="keywords" content="contacto, formulario de contacto, Alice Nails, consulta manicura, servicios de manicura, atención al cliente, contacto Alice Nails">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/favicon.png">
+  <!-- CSS de estilos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+    
+
+  <!--Titulo-->
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header class="heder-contenido">
+    <nav class="navbar  navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../multimedia/logonav_Mesa de trabajo 1.png" alt="Bootstrap" width="150" height="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/quienessomos.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="contacto-contenido">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title text-center mb-4">Contáctanos</h2>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre y apellido">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Teléfono</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+              </form>
             </div>
-        </ul>
-    </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <img src="../multimedia/redes.jpg" alt="redes" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="../multimedia/facebook_4494475.png" alt="Facebook">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="../multimedia/youtube_4494485.png" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="../multimedia/instagram_4494488.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="../multimedia/linkedin_4494497.png" alt="LinkedIn">
+      </a>
+    </div>
+    <div>
+      <p>&copy; 2024 Alice</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

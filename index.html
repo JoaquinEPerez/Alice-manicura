@@ -1,83 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS de estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="style.css">
-    <!-- Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    
-    <!--Titulo-->   
-    <title>Alice Nails</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Description -->
+  <meta name="description" content="Alice Nails ofrece servicios profesionales de cuidado de uñas con productos de alta calidad y últimas tendencias. Desde 2011, nos especializamos en el cuidado de manos y uñas para mantenerte siempre a la moda.">
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="cuidado de uñas, manicura, Alice Nails, productos de uñas, tendencias en uñas, cuidado de manos">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./multimedia/favicon.png" type="image/favicon.png">
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--Animaciones css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  <!--Titulo-->
+  <title>Alice Nails</title>
 </head>
+
 <body>
   <header class="heder-contenido">
-    <h1 class="heder-titulo">
-      Alice Nails
-    </h1>    
-    <nav class="nav nav-pills flex-column flex-sm-row ">
-      <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="./Pages/servicios.html">Servicios</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="./Pages/productos.html">Productos</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="./Pages/quienessomos.html">Quienes somos </a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="./Pages/contacto.html">Contacto</a>
-    </nav>     
-  </header>
-  <section>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./multimedia/images/manosamigas_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./multimedia/images/uñasojos_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./multimedia/images/paleta_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-          </button>
+    <nav class="navbar  navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./multimedia/logonav_Mesa de trabajo 1.png" alt="Bootstrap" width="150" height="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/quienessomos.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-  </section>
+      </div>
+    </nav>
+  </header>
   <section class="descripcionmarca-contenido ">
     <P class="descripcionmarca-parrafo">
-      El cuidado de las uñas ha tomado auge en los últimos años y se ha convertido en un accesorio fundamental de la moda. Desde el año 2011 nos especializamos y profesionalizamos para ser líderes en el cuidado de manos . Ofrecemos a nuestros clientas un servicio de alto nivel con productos de calidad y con una duración óptima, siempre a la vanguardia en productos, colores y tendencias.
+      El cuidado de las uñas ha tomado auge en los últimos años y se ha convertido en un accesorio fundamental de la
+      moda. Desde el año 2018 nos especializamos y profesionalizamos para ser líderes en el cuidado de manos . Ofrecemos
+      a nuestros clientas un servicio de alto nivel con productos de calidad y con una duración óptima, siempre a la
+      vanguardia en productos, colores y tendencias.
     </P>
-      <img class="descripcionmarca-img" src="./multimedia/Free_iPad_Mockup_1-removebg-preview.png" alt="ipad-marca">
+    <img class="descripcionmarca-img" src="./multimedia/ipad.png" alt="logo alice">
   </section>
-  <section  class="opiniones-container">
-    <div class="opiniones-item img">
-      <img src="./multimedia/review.png" alt="opiniones">
+
+  <section>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./multimedia/images/manosamigas_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./multimedia/images/uñasojos_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./multimedia/images/paleta_Mesa de trabajo 1.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="opiniones-container">
+    <div class="reviews-section">
+      <div class="review">
+        <div class="review-header">
+          <img src="profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+          <div class="review-info">
+            <p class="review-infouser">Nombre del Usuario</p>
+            <div class="review-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">☆</span>
+            </div>
+            <p class="review-date">20 de Agosto de 2024</p>
+          </div>
+        </div>
+        <p class="review-text">
+          Excelente servicio, muy rápido y eficiente. Definitivamente volveré.
+        </p>
+      </div>
+      <div class="review">
+        <div class="review-header">
+          <img class="profile-pic" src="profile-picture.jpg" alt="Profile Picture">
+          <div class="review-info">
+            <p class="review-infouser">Nombre del Usuario</p>
+            <div class="review-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">☆</span>
+            </div>
+            <p class="review-date">20 de Agosto de 2024</p>
+          </div>
+        </div>
+        <p class="review-text">
+          Excelente servicio, muy rápido y eficiente. Definitivamente volveré.
+        </p>
+      </div>
+
     </div>
     <div class="opiniones-item iframe">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw5KQJRuVNw?si=PfwYJe7N7qvrYF5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw5KQJRuVNw?si=PfwYJe7N7qvrYF5L"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
-  <footer class="footer">
-    <ul>
-      <a href="https://www.instagram.com/nailsbyjuli_/?hl=es-la"><img class="footer__img" src="multimedia/iconinsta.png" alt="logo-instagram">
+  <footer>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="./multimedia/facebook_4494475.png" alt="Facebook">
       </a>
-      <div class="footer__descripcion"> 
-        @2024 Alice Nails
-      </div>
-    </ul>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="./multimedia/youtube_4494485.png" alt="Twitter">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="./multimedia/instagram_4494488.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <img src="./multimedia/linkedin_4494497.png" alt="LinkedIn">
+      </a>
+    </div>
+    <div>
+      <p>&copy; 2024 Alice</p>
+    </div>
   </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

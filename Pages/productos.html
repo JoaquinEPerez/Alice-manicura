@@ -1,47 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra colección de productos de manicura, incluyendo esmaltes, kits profesionales, aceites nutritivos y más. Compra en línea productos de alta calidad para el cuidado de tus uñas y manos.">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="productos de manicura, esmaltes de uñas, kits de manicura, aceites para cutículas, removedores de esmalte, limas de uñas, exfoliantes de manos, cremas hidratantes">
+    <!--Favicon-->
+  <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/favicon.png">
     <!-- CSS de estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <!-- Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Meta Description -->
     
+
     <title>Nuestros Productos</title>
 </head>
+
 <body>
     <header class="heder-contenido">
-        <h1 class="heder-titulo">
-            Alice Nails
-        </h1>     
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="../index.html">Home</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/servicios.html">Servicios</a>
-            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Productos</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/quienessomos.html">Quienes somos </a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../Pages/contacto.html">Contacto</a>
+        <nav class="navbar  navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../multimedia/logonav_Mesa de trabajo 1.png" alt="Bootstrap" width="150" height="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/quienessomos.html">Sobre
+                                Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        
     </header>
-    <section class="productos-contenido">  
+    <section class="productos-contenido">
         <div class="producto">
             <div class="producto-p">
                 <p class="producto-item">Esmalte de Uñas Gel Color</p>
-                <img class="img-producto" src="../multimedia/images/one.svg" alt="one">
-                <p>Un esmalte de larga duración con acabado brillante. Disponible en una amplia gama de colores vibrantes.</p>
+                <img class="img-producto" src="../multimedia/gelmanicura-01.jpg" alt="esmalte de uñas">
+                <p>Un esmalte de larga duración con acabado brillante. Disponible en una amplia gama de colores
+                    vibrantes.</p>
                 <p class="producto-precio">ARS $2.500</p>
                 <button class="productos-boton">Comprar</button>
             </div>
-        </div> 
+        </div>
         <div class="producto">
             <div class="producto-p">
                 <p class="producto-item">Kit de Manicura Profesional</p>
-                <img class="img-producto" src="../multimedia/images/one.svg" alt="one">
-                <p>Incluye limas, alicates, empujador de cutículas y más. Todo lo que necesitas para una manicura perfecta en casa.</p>
+                <img class="img-producto" src="../multimedia/kit-pro-01.jpg" alt="kit de manicura">
+                <p>Incluye limas, alicates, empujador de cutículas y más. Todo lo que necesitas para una manicura
+                    perfecta en casa.</p>
                 <p class="producto-precio">ARS $6.000</p>
                 <button class="productos-boton">Comprar</button>
             </div>
@@ -49,7 +78,7 @@
         <div class="producto">
             <div class="producto-p">
                 <p class="producto-item">Aceite Nutritivo para Cutículas</p>
-                <img class="img-producto" src="../multimedia/images/one.svg" alt="one">
+                <img class="img-producto" src="../multimedia/aceite-01.jpg" alt="aceite de cuticula">
                 <p>Aceite rico en vitaminas que hidrata y fortalece las cutículas, dejándolas suaves y saludables.</p>
                 <p class="producto-precio">ARS $1.800</p>
                 <button class="productos-boton">Comprar</button>
@@ -58,28 +87,80 @@
         <div class="producto">
             <div class="producto-p">
                 <p class="producto-item">Removedor de Esmalte Sin Acetona</p>
-                <img class="img-producto" src="../multimedia/images/one.svg" alt="one">
+                <img class="img-producto" src="../multimedia/removedor-01.jpg" alt="removedor de esmalte">
                 <p>Fórmula suave que elimina el esmalte sin resecar las uñas, con un agradable aroma a frutas.</p>
                 <p class="producto-precio">ARS $1.500</p>
                 <button class="productos-boton">Comprar</button>
             </div>
         </div>
+        <div class="producto">
+            <div class="producto-p">
+                <p class="producto-item">Lima de Uñas de Cristal</p>
+                <img class="img-producto" src="../multimedia/limadeuña_Mesa de trabajo 1.png" alt="lima de uñas">
+                <p>Lima de alta calidad hecha de cristal, ideal para dar forma a las uñas sin causar daños. Proporciona un acabado suave y uniforme.
+                </p>
+                <p class="producto-precio">ARS $1.500</p>
+                <button class="productos-boton">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <div class="producto-p">
+                <p class="producto-item">Exfoliante de Manos</p>
+                <img class="img-producto" src="../multimedia/exfoliante_Mesa de trabajo 1.png" alt="exfoliante">
+                <p>Exfoliante para manos que elimina las células muertas y suaviza la piel, con un aroma a leche de almendras.</p>
+                <p class="producto-precio">ARS $2.500</p>
+                <button class="productos-boton">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <div class="producto-p">
+                <p class="producto-item">Cepillo para Limpiar Uñas</p>
+                <img class="img-producto" src="../multimedia/cepillo_Mesa de trabajo 1.png" alt="cepillo-para-mano">
+                <p>Cepillo suave diseñado para limpiar la superficie de las uñas y cutículas, ideal para el cuidado diario.</p>
+                <p class="producto-precio">ARS $1.000</p>
+                <button class="productos-boton">Comprar</button>
+            </div>
+        </div>
+        <div class="producto">
+            <div class="producto-p">
+                <p class="producto-item">Crema Hidratante para Manos</p>
+                <img class="img-producto" src="../multimedia/hidratante_Mesa de trabajo 1.png" alt="crema hidratante">
+                <p>Crema hidratante que nutre y suaviza las manos con un delicado aroma a leche de almendra.</p>
+                <p class="producto-precio">ARS $3.500</p>
+                <button class="productos-boton">Comprar</button>
+            </div>
+        </div>
     </section>
-    
+
     <div class="ml">
         <nav>
-            <a href="https://listado.mercadolibre.com.ar/productos-de-manicura#D[A:productos%20de%20manicura]" target="_blank">Ver más Productos +</a>
+            <a href="https://listado.mercadolibre.com.ar/productos-de-manicura#D[A:productos%20de%20manicura]"
+                target="_blank">Ver más Productos +</a>
         </nav>
     </div>
 
-    <footer class="footer">
-        <ul>
-            <a href="https://www.instagram.com/nailsbyjuli_/?hl=es-la"><img class="footer__img" src="../multimedia/iconinsta.png" alt="logo-instagram"></a>
-            <div class="footer__descripcion"> 
-            @2024 Alice Nails
-            </div>
-        </ul>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../multimedia/facebook_4494475.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../multimedia/youtube_4494485.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../multimedia/instagram_4494488.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="../multimedia/linkedin_4494497.png" alt="LinkedIn">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2024 Alice</p>
+        </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
